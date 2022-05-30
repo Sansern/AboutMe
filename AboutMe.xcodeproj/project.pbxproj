@@ -61,8 +61,8 @@
 		0519499A2843FE4300657026 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				0519499B2843FE4300657026 /* AboutMeApp.swift */,
 				0597108B28458165009F7226 /* Data.swift */,
+				0519499B2843FE4300657026 /* AboutMeApp.swift */,
 				0519499D2843FE4300657026 /* ContentView.swift */,
 				0597108328458083009F7226 /* HomeView.swift */,
 				0597108528458091009F7226 /* StoryView.swift */,
