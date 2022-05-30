@@ -24,6 +24,7 @@ struct HomeView: View {
             Text(information.name)
                 .font(.title)
             
+            Spacer()
                 
         }
     }
