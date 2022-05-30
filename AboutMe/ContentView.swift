@@ -10,22 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Home")
+            HomeView()
                 .tabItem {
                     Label("Home", systemImage: "person")
                 }
                 .tag(1)
-            Text("Story")
+            StoryView()
                 .tabItem {
                     Label("Story", systemImage: "book")
                 }
                 .tag(2)
-            Text("Favorite")
+            FavoritesView()
                 .tabItem {
                     Label("Favorite", systemImage: "star")
                 }
                 .tag(3)
-            Text("Fun Facts")
+            FunfactsView()
                 .tabItem {
                     Label("Fun Facts", systemImage: "hand.thumbsup")
                 }
